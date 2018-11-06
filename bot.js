@@ -48,7 +48,7 @@ hours = 12;
 }
 
   var filter = m => m.author.id === message.author.id;
-  if(message.content.startsWith(prefix + "giveaway")) { // الامر
+  if(message.content.startsWith(prefix + "gift")) { // الامر
 
     if(!message.guild.member(message.author).hasPermission('MANAGE_GUILD')) return message.channel.send(':heavy_multiplication_x:| **يجب أن يكون لديك خاصية التعديل على السيرفر**');
     message.channel.send(`:eight_pointed_black_star:| **ارسل اسم الروم الذي تريد ان يكون فيه قيف اواي**`).then(msg => {
