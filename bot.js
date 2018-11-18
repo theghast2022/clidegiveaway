@@ -114,4 +114,4 @@ hours = 12;
  
  
  
-client.login("NTA5NDAwMzc2OTQ5MDgwMDY3.DsNVQw.SEViY_wo4MbqbTTq7Zn3sJdMlY0");
+client.login(process.env.BOT_TOKEN);
